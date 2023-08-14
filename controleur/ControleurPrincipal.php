@@ -1,4 +1,5 @@
 <?php
+
 class ControleurPrincipal {
     private $actions;
 
