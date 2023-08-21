@@ -1,11 +1,11 @@
 <?php
 
 class Database {
-    protected $login;
-    protected $mdp;
-    protected $bd;
-    protected $serveur;
-    protected $conn;
+    protected string $login;
+    protected string $mdp;
+    protected string $bd;
+    protected string $serveur;
+    protected PDO $conn;
 
     public function __construct() {
         $this->login = "root";
