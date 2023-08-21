@@ -5,4 +5,4 @@ if ( $_SERVER["SCRIPT_FILENAME"] == __FILE__ ){
 
 
 $titre = "Accueil - Selection";
-include ("$racine/vue/vueAccueil.php");
+include ("$racine/vueAccueil.php");
