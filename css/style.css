@@ -7,7 +7,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: #130e0e;
     text-align: center;
 }
 .container {
@@ -59,9 +59,11 @@ body {
 .link-to-page {
     text-decoration: none;
     color: red;
+    opacity: 0.9;
 }
 .link-to-page:hover {
     text-decoration: underline;
+    opacity: 1;
 }
 .white {
     color: white;
@@ -70,12 +72,14 @@ body {
     color: red;
 }
 .input {
-    color: cyan;
-
+    color: black;
 }
 .submit-button {
+    background-color: black;
+    border: solid;
+    width: 100px;
+    height: 50px;
     color: red;
-    background-color: white;
     opacity: 0.8;
 }
 .submit-button:hover {
