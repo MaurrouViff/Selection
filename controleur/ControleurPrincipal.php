@@ -5,8 +5,8 @@ class ControleurPrincipal {
 
     public function __construct() {
         $this->actions = array(
-            "defaut" => "vueAccueil.php",
-            "accueil" => "vueAccueil.php"
+            "defaut" => "accueil.php",
+            "accueil" => "accueil.php"
         );
     }
 
