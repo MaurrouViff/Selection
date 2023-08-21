@@ -27,13 +27,19 @@
 <h2 class="white">Pas de compte ? <a class="link-to-page" href="./?action=inscription">Inscrivez-vous !</a></h2>
 
 <form action="./?action=connexion" method="POST">
-    <p>Adresse électronique</p>
-    <input type="text" name="mailU" placeholder="Votre e-mail" required>
-    <p>Nom d'utilisateur</p>
-    <input type="text" name="pseudoU" placeholder="Votre nom d'utilsateur" required>
-    <p>Votre mot de passe</p>
-    <input type="password" name="mdpU" placeholder="Votre mot de passe"><br /><br />
-    <input type="submit" value="Se connecter">
+    <p class="red">Adresse électronique</p>
+    <label for="adresse-mail">
+        <input type="text" name="mailU" placeholder="Votre e-mail" class="input" required>
+    </label>
+    <p class="red">Nom d'utilisateur</p>
+    <label for="pseudo-utilisateur">
+        <input type="text" name="pseudoU" placeholder="Votre nom d'utilsateur" class="input" required>
+    </label>
+    <p class="red">Votre mot de passe</p>
+    <label for="motdepasse">
+        <input type="password" name="mdpU" placeholder="Votre mot de passe" class="input" required>
+    </label><br /><br />
+    <input type="submit" value="Se connecter" class="submit-button">
 
 </form>
 </div>

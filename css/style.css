@@ -66,6 +66,21 @@ body {
 .white {
     color: white;
 }
+.red {
+    color: red;
+}
+.input {
+    color: cyan;
+
+}
+.submit-button {
+    color: red;
+    background-color: white;
+    opacity: 0.8;
+}
+.submit-button:hover {
+    opacity: 1;
+}
 /* CSS pour la flèche */
 .arrow-container {
     position: fixed;
