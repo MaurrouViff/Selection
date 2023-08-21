@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php echo $titre ?></title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="">
+    <link rel="icon" href="assets/icon/parcoursup-icon.png">
 </head>
 <body>
 <div class="container">
@@ -17,7 +17,10 @@
         <nav class="navbar">
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="./?action=propos" class="blue-btn">Se connecter</a>
+                    <a href="./?action=connexion" class="blue-btn">Se connecter</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./?action=cgu" class="blue-btn">CGU</a>
                 </li>
 
             </ul>
