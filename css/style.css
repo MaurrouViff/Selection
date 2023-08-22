@@ -84,30 +84,3 @@ body {
 .submit-button:hover {
     opacity: 1;
 }
-/* CSS pour la flèche */
-.arrow-container {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    width: 50px;
-    height: 50px;
-    background-color: cyan;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    pointer-events: none;
-    z-index: 1;
-}
-.arrow-container.show {
-    opacity: 1;
-    pointer-events: auto;
-}
-.arrow {
-    color: black;
-    font-size: 24px;
-}
-/* Fin du css pour la flèche */
