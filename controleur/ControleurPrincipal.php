@@ -8,7 +8,8 @@ class ControleurPrincipal {
             "defaut" => "accueil.php",
             "accueil" => "accueil.php",
             "connexion" => "connexion.php",
-            "cgu" => "cgu.php"
+            "cgu" => "cgu.php",
+            "inscription" => "inscription.php"
         );
     }
 

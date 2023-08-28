@@ -1,24 +1,23 @@
 <?php
 
 class Database {
-    protected string $login;
-    protected string $mdp;
-    protected string $bd;
-    protected string $serveur;
-    protected PDO $conn;
+    protected string $login = "root";
+    protected string $mdp = "root";
+    protected string $bd = "bd_selection";
+    protected string $serveur = "localhost";
+    protected PDO $connexion;
 
     public function __construct() {
-        $this->login = "root";
-        $this->mdp = "root";
-        $this->bd = "";
-        $this->serveur = "localhost";
-
         try {
-            $this->conn = new PDO("mysql:host=$this->serveur;dbname=$this->bd;charset=UTF8", $this->login, $this->mdp);
-            $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        } catch (PDOException) {
-            print "Erreur de connexion PDO";
+            $this->connexion = new PDO("mysql:host=$this->serveur;dbname=$this->bd;charset=UTF8", $this->login, $this->mdp);
+            $this->connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        } catch (PDOException $e) {
+            print "Erreur de connexion PDO ";
             die();
         }
+    }
+
+    public function getConnexion() {
+        return $this->connexion;
     }
 }

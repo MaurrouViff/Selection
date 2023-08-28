@@ -10,8 +10,10 @@
     <link rel="icon" href="assets/icon/parcoursup-icon.png" />
 </head>
 <body>
+<?php include "WebsitePart/header/header.php"; ?>
 <div class="container">
 
 </div>
+<?php include "WebsitePart/footer/footer.php"; ?>
 </body>
 </html>

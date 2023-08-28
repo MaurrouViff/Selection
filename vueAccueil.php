@@ -22,6 +22,7 @@
                 <li class="nav-item">
                     <a href="./?action=cgu" class="blue-btn">CGU</a>
                 </li>
+               
 
             </ul>
         </nav>
