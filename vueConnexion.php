@@ -16,9 +16,9 @@
 <h2 class="white">Pas de compte ? <a class="link-to-page" href="./?action=inscription">Inscrivez-vous !</a></h2>
 
 <form action="./?action=connexion" method="POST">
-    <p class="red">Nom d'utilisateur</p>
+    <p class="red">Adresse mail</p>
     <label for="pseudo-utilisateur">
-        <input type="text" name="pseudoU" placeholder="Votre nom d'utilsateur" class="input" required>
+        <input type="text" name="mailU" placeholder="Votre nom d'utilsateur" class="input" required>
     </label>
     <p class="red">Votre mot de passe</p>
     <label for="motdepasse">
