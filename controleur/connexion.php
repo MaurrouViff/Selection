@@ -5,14 +5,14 @@ if ( $_SERVER["SCRIPT_FILENAME"] == __FILE__ ){
 
 
 // recuperation des donnees GET, POST, et SESSION
-if (isset($_POST["pseudoU"]) && isset($_POST["mdpU"])){
-    $pseudoU=$_POST["pseudoU"];
-    $mdpU=$_POST["mdpU"];
+if (isset($_POST["mailU"]) && isset($_POST["mdpU"])){
+    $mailU = $_POST["mailU"];
+    $mdpU = $_POST["mdpU"];
 }
 else
 {
-    $pseudoU="";
-    $mdpU="";
+    $mailU = "";
+    $mdpU = "";
 }
 
 
