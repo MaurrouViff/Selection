@@ -16,9 +16,15 @@
 
         <nav class="navbar">
             <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="./?action=connexion" class="blue-btn">Se connecter</a>
-                </li>
+                <?php if (isLoggedOn()) { ?>
+                    <li class="nav-item">
+                        <a href="./?action=monProfil" class="blue-btn">Mon profil</a>
+                    </li>
+                <?php } else { ?>
+                    <li class="nav-item">
+                        <a href="./?action=connexion" class="blue-btn">Se connecter</a>
+                    </li>
+                <?php } ?>
                 <li class="nav-item">
                     <a href="./?action=cgu" class="blue-btn">CGU</a>
                 </li>
