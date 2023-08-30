@@ -9,7 +9,9 @@ class ControleurPrincipal {
             "accueil" => "accueil.php",
             "connexion" => "connexion.php",
             "cgu" => "cgu.php",
-            "inscription" => "inscription.php"
+            "inscription" => "inscription.php",
+            "monProfil" => "monProfil.php",
+            "admin" => "admin.php"
         );
     }
 
